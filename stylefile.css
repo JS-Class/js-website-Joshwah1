@@ -11,16 +11,17 @@ h2, h3 {
     color:cornflowerblue;
     font-family:'Times New Roman', Times, serif;
 }
+
+#college p {
+    color:fuchsia;
+}
+
 ul, p {
     color:rgb(255, 255, 255);
 }
 body {
     background-color: black;
     font-weight: bold;
-}
-
-.college{
-    color:fuchsia;
 }
 
 #schoolMusic{
