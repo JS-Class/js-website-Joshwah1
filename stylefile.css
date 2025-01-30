@@ -1,0 +1,20 @@
+h1 {
+    color:cornflowerblue;
+    background-color: darkblue;
+    text-align: center;
+    font-size: 3em;
+    font-style: oblique;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 2em;    
+}
+h2, h3 {
+    color:cornflowerblue;
+    font-family:'Times New Roman', Times, serif;
+}
+ul, p {
+    color:rgb(255, 255, 255);
+}
+body {
+    background-color: black;
+    font-weight: bold;
+}
