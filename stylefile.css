@@ -12,6 +12,12 @@ h2, h3 {
     font-family:'Times New Roman', Times, serif;
 }
 
+nav li {
+    display: inline;
+    padding-right: 40px;
+    line-height: 150%;
+}
+
 #college p {
     color:fuchsia;
 }
