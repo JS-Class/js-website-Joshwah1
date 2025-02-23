@@ -7,9 +7,13 @@ h1 {
     font-family:'Times New Roman', Times, serif;
     line-height: 2em;    
 }
-h2, h3 {
+h2, h3, table, caption {
     color:cornflowerblue;
     font-family:'Times New Roman', Times, serif;
+}
+
+table, th {
+    border: solid 2px white;
 }
 
 nav li {
