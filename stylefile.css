@@ -26,7 +26,7 @@ nav li {
     color:fuchsia;
 }
 
-ul, p {
+ul, p, label {
     color:rgb(255, 255, 255);
 }
 body {
