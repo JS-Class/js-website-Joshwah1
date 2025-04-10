@@ -7,6 +7,7 @@
         <meta name="keywords" content="Joshua, Bolman, Joshua Bolman">
         <title>Joshua Bolman's Webpage</title>
         <link rel="stylesheet" href="stylefile.css">
+        <link href="lightbox.css" rel="stylesheet" />
     </head>
 
     <body>
@@ -24,7 +25,13 @@
         </header>
 
         <main>
+            <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
             <!--Here is an image of me-->
+            <!--The plug in is below (Lightbox)-->
+            <figure>
+            <a href="websiteimageme.jpg" data-lightbox="websiteimageme" data-title="My caption"><figcaption>Click here to zoom (With Lightbox)</figcaption></a>
+            </figure>
             <img src="websiteimageme.jpg" alt="Image of me." height="350" width="300">
             
             <h3>Early Life</h3>
@@ -54,6 +61,8 @@
                 This is the end.
             </p>
         </footer>
+
+        <script src="lightbox.js"></script>
 
     </body>
 
