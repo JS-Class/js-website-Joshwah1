@@ -1,0 +1,39 @@
+h1 {
+    color:cornflowerblue;
+    background-color: darkblue;
+    text-align: center;
+    font-size: 3em;
+    font-style: oblique;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 2em;    
+}
+h2, h3, table, caption {
+    color:cornflowerblue;
+    font-family:'Times New Roman', Times, serif;
+}
+
+table, th {
+    border: solid 2px white;
+}
+
+nav li {
+    display: inline;
+    padding-right: 40px;
+    line-height: 150%;
+}
+
+#college p {
+    color:fuchsia;
+}
+
+ul, p, label {
+    color:rgb(255, 255, 255);
+}
+body {
+    background-color: black;
+    font-weight: bold;
+}
+
+#schoolMusic{
+    color:blueviolet;
+}

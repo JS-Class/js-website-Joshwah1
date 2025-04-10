@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="This webpage is about Joshua Bolman">
+        <meta name="keywords" content="Joshua, Bolman, Joshua Bolman">
+        <title>Joshua Bolman's Family</title>
+        <link rel="stylesheet" href="stylefile.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>About Joshua Bolman</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" title="Home Page">Home</a></li>
+                    <li><a href="page2.html" title="Second Page">Family</a></li>
+                    <li><a href="page3.html" title="Third Page">Courses</a></li>
+                    <li><a href="page4.html" title="Fourth Page">Form</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Form</h2>
+            <form id="pizza_form" action="my_app_php" method="post">
+            <p>Name: <input type ="text" name="custName" id="custName"></p>
+            <p>Address: <input type ="text" name="address" id="address"></p>
+            <p>Phone Number:<input type ="text" name="phone" id="phone"></p>
+            input
+            <fieldset>
+                <input type="radio" name="ten" id="ten" value="tenInches" unchecked>
+                <label for="ten">10" Crust</label>
+                <input type="radio" name="twelve" id="twelve" value="twelveInches" unchecked>
+                <label for="ten">12" Crust</label>
+                <input type="radio" name="fourteen" id="fourteen" value="fourteenInches" unchecked>
+                <label for="ten">14" Crust</label>
+            </fieldset>
+            <fieldset>
+                <input type="checkbox" name="pepperoni" id="pepperoni" value="pep" unchecked>
+                <label for="ten">Pepperoni</label>
+                <input type="checkbox" name="sausage" id="sausage" value="sau" unchecked>
+                <label for="ten">Sausage</label>
+                <input type="checkbox" name="mushrooms" id="mushrooms" value="mush" unchecked>
+                <label for="ten">Mushrooms</label>
+            </fieldset>
+            <p>Notes to the cook: <input type ="hidden" name="cookNotes" id="cookNotes"></p>
+            <textarea name="notes" id="notes" cols="30" rows="10"></textarea>
+            </form>
+                
+        </main>
+
+        <footer>
+            <p>
+                This is the end.
+            </p>
+        </footer>
+
+    </body>
